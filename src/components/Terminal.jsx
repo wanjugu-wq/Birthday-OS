@@ -22,7 +22,7 @@ clear      Clear terminal
 
   whoami: "Future Senior Software Engineer/ Researcher ",
 
-  birthday: "🎉 Happy Birthday!\n\nVersion 13.0 deployed successfully.",
+  birthday: "🎉 Happy Birthday!\n\nVersion 12.0 deployed successfully.",
 
   future: "Loading future...\n\n Senior Engineer @ Awesome Company.",
 
@@ -32,7 +32,7 @@ clear      Clear terminal
 
   joke: "Why do programmers prefer dark mode?\n\nBecause light attracts bugs.",
 
-  xp: "XP LEVEL: 13\n\nSkills unlocked:\n• Curiosity\n• Debugging\n• Creativity",
+  xp: "XP LEVEL: 12\n\nSkills unlocked:\n• Curiosity\n• Debugging\n• Creativity",
 
   404: "404: Command not found.\n\nOh wait... you found it.",
 
@@ -42,14 +42,14 @@ clear      Clear terminal
 
   hack: "Accessing NASA servers...\n\n█████░░░░░ 52%\n\nJust kidding 😂",
 
-  version: "Version 13.0 (Stable Release)",
+  version: "Version 12.0 (Stable Release)",
 
   time: () => `Current system time:\n${new Date().toLocaleTimeString()}`,
 };
 
 export default function Terminal() {
   const [history, setHistory] = useState([
-    "Welcome to BirthdayOS v13.0",
+    "Welcome to BirthdayOS v12.0",
     "Type 'help' to view available commands.",
   ]);
 
@@ -65,7 +65,7 @@ export default function Terminal() {
 
     // Clear terminal
     if (cmd === "clear") {
-      setHistory(["Welcome to BirthdayOS v13.0", "Terminal cleared."]);
+      setHistory(["Welcome to BirthdayOS v12.0", "Terminal cleared."]);
       setInput("");
       return;
     }
