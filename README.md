@@ -1,4 +1,4 @@
-# BirthdayOS v12.0 🎉
+# BirthdayOS v12.0 
 
 A minimal, interactive birthday website built for a young developer.
 
@@ -89,6 +89,16 @@ Hint:
 
 > Developers usually prefer the dark.
 
+## Easter Eggs 
+
+BirthdayOS includes hidden features for those willing to explore.
+
+```txt
+↑ ↑ ↓ ↓ ← → ← → B A
+```
+
+Legacy game compatibility: ENABLED.
+
 ## Project Structure
 
 ```txt
@@ -118,4 +128,4 @@ Inspired by modern editorial interfaces, developer culture, and the joy of shipp
 
 Keep building. Keep experimenting. Keep breaking things and fixing them.
 
-Version 12.0 is only the beginning. 🚀
+Version 12.0 is only the beginning. 
