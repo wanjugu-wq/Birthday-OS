@@ -18,7 +18,7 @@ const events = [
     text: "Started building cool things.",
   },
   {
-    version: "v13.0",
+    version: "v12.0",
     text: "Legendary release shipped.",
   },
 ];
